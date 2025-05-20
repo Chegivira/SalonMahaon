@@ -1,0 +1,46 @@
+# IDE и системные файлы
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.orig
+*.iml
+*.swp
+*.swo
+
+# Laravel (backend)
+backend/vendor/
+backend/node_modules/
+backend/storage/
+backend/bootstrap/cache/
+backend/public/storage
+backend/public/hot
+backend/.env
+backend/.env.*.local
+backend/composer.lock
+backend/phpunit.xml
+backend/.phpunit.result.cache
+
+# React (frontend)
+frontend/node_modules/
+frontend/.env
+frontend/.env.*.local
+frontend/build/
+frontend/dist/
+frontend/coverage/
+frontend/.next/
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+
+# Корневые .env и прочее
+.env
+.env.*.local
+*.sqlite
